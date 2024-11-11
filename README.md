@@ -12,18 +12,18 @@ Postman을 사용하여 API를 테스트하고 연습할 수 있도록 구성되
 
 ```
 src/main/java/com/intheeast/
-├── S3demoApplication.java       # Spring Boot 애플리케이션의 진입점
+├── S3demoApplication.java      # Spring Boot 애플리케이션의 진입점
 ├── configuration/
-│   └── S3Config.java            # AWS S3 클라이언트 설정
+│   └── S3Config.java           # AWS S3 클라이언트 설정
 ├── controller/
-│   └── S3Controller.java        # S3와 상호작용하는 REST API 제공
+│   └── S3Controller.java       # S3와 상호작용하는 REST API 제공
 ├── exception/
-│   └── S3Exception.java         # S3 관련 사용자 정의 예외 처리
+│   └── S3Exception.java        # S3 관련 사용자 정의 예외 처리
 ├── service/
-│   ├── S3Message.java           # 에러 메시지 관리
-│   ├── S3Service.java           # S3와 실제로 상호작용하는 비즈니스 로직
+│   ├── S3Message.java          # 에러 메시지 관리
+│   └── S3Service.java          # S3와 실제로 상호작용하는 비즈니스 로직
 └── resources/
-    ├── application.yml          # 프로젝트 설정 파일 (AWS 인증 정보 및 버킷 정보 포함)
+    └── application.yml         # 프로젝트 설정 파일 (AWS 인증 정보 및 버킷 정보 포함)
 ```
 
 ---
