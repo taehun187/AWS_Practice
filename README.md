@@ -10,7 +10,7 @@ Postman을 사용하여 API를 테스트하고 연습할 수 있도록 구성되
 
 ## **프로젝트 구조**
 
-```
+```plaintext
 src/main/java/com/intheeast/
 ├── S3demoApplication.java      # Spring Boot 애플리케이션의 진입점
 ├── configuration/
@@ -24,7 +24,7 @@ src/main/java/com/intheeast/
 │   └── S3Service.java          # S3와 실제로 상호작용하는 비즈니스 로직
 └── resources/
     └── application.yml         # 프로젝트 설정 파일 (AWS 인증 정보 및 버킷 정보 포함)
-```
+
 
 ---
 
