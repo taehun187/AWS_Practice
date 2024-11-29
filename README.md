@@ -1,4 +1,4 @@
-### **README.md: S3Demo 프로젝트**
+### **S3Demo 프로젝트**
 
 ```markdown
 # S3Demo 프로젝트
