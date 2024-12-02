@@ -24,34 +24,6 @@ src/main/java/com/intheeast/
 │   └── S3Service.java          # S3와 실제로 상호작용하는 비즈니스 로직
 └── resources/
     └── application.yml         # 프로젝트 설정 파일 (AWS 인증 정보 및 버킷 정보 포함)
-
-
----
-
-## **설정 방법**
-
-### **1. AWS S3 버킷 생성**
-1. AWS Management Console에서 S3 서비스로 이동.
-2. 새 버킷 생성.
-   - 버킷 이름: 프로젝트의 `application.yml`에 입력.
-   - 퍼블릭 액세스 차단 설정 비활성화(테스트 환경).
-
----
-
-### **2. `application.yml` 설정**
-
-`src/main/resources/application.yml` 파일에서 AWS 관련 정보를 입력하세요:
-
-```yaml
-cloud:
-  aws:
-    s3:
-      bucket: <YOUR_BUCKET_NAME>
-    region:
-      static: <YOUR_AWS_REGION> # 예: ap-northeast-2
-    credentials:
-      accessKey: <YOUR_ACCESS_KEY>
-      secretKey: <YOUR_SECRET_KEY>
 ```
 
 ---
